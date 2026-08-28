@@ -1,0 +1,31 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  dodo-core:
+    name: DodoCore tests
+    runs-on: macos-15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run DodoCore Swift Testing
+        run: swift test --package-path Packages/DodoCore
+
+  app:
+    name: Dodo xcodebuild
+    runs-on: macos-15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Show Xcode
+        run: xcodebuild -version
+      - name: Test Dodo scheme
+        run: |
+          xcodebuild test \
+            -project Dodo.xcodeproj \
+            -scheme Dodo \
+            -destination 'platform=macOS' \
+            -skipMacroValidation \
+            CODE_SIGNING_ALLOWED=NO

@@ -1,0 +1,29 @@
+name: Vertical slice
+description: A demoable end-to-end slice from the PRD
+title: "Slice: "
+labels: ["slice"]
+body:
+  - type: input
+    id: parent
+    attributes:
+      label: Parent PRD
+      placeholder: "#1"
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What to build
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+    validations:
+      required: true
+  - type: textarea
+    id: blocked
+    attributes:
+      label: Blocked by
+      value: None - can start immediately
