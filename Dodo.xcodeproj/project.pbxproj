@@ -8,10 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		A10000000000000000000060 /* DodoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000050 /* DodoApp.swift */; };
-		A10000000000000000000061 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000054 /* ContentView.swift */; };
+		A10000000000000000000061 /* MainSplitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000054 /* MainSplitView.swift */; };
 		A10000000000000000000062 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000051 /* Assets.xcassets */; };
 		A10000000000000000000063 /* DodoCore in Frameworks */ = {isa = PBXBuildFile; productRef = A10000000000000000000011 /* DodoCore */; };
 		A10000000000000000000064 /* DodoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000053 /* DodoTests.swift */; };
+		A100000000000000000000B0 /* SidebarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100000000000000000000A0 /* SidebarItem.swift */; };
+		A100000000000000000000B1 /* Workspace.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100000000000000000000A1 /* Workspace.swift */; };
+		A100000000000000000000B2 /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100000000000000000000A2 /* SidebarView.swift */; };
+		A100000000000000000000B3 /* EmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100000000000000000000A3 /* EmptyStateView.swift */; };
+		A100000000000000000000B4 /* ItemListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100000000000000000000A4 /* ItemListView.swift */; };
+		A100000000000000000000B5 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100000000000000000000A5 /* DetailView.swift */; };
+		A100000000000000000000B6 /* MarkdownPane.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100000000000000000000A6 /* MarkdownPane.swift */; };
+		A100000000000000000000B7 /* NoteEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100000000000000000000A7 /* NoteEditorView.swift */; };
+		A100000000000000000000B8 /* TaskInspectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100000000000000000000A8 /* TaskInspectorView.swift */; };
+		A100000000000000000000B9 /* QuickCaptureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100000000000000000000A9 /* QuickCaptureView.swift */; };
+		A100000000000000000000BA /* SettingsViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100000000000000000000AA /* SettingsViews.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,9 +40,20 @@
 		A10000000000000000000051 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A10000000000000000000052 /* Dodo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Dodo.entitlements; sourceTree = "<group>"; };
 		A10000000000000000000053 /* DodoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DodoTests.swift; sourceTree = "<group>"; };
-		A10000000000000000000054 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A10000000000000000000054 /* MainSplitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainSplitView.swift; sourceTree = "<group>"; };
 		A10000000000000000000055 /* Dodo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dodo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A10000000000000000000056 /* DodoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DodoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A100000000000000000000A0 /* SidebarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarItem.swift; sourceTree = "<group>"; };
+		A100000000000000000000A1 /* Workspace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workspace.swift; sourceTree = "<group>"; };
+		A100000000000000000000A2 /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
+		A100000000000000000000A3 /* EmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyStateView.swift; sourceTree = "<group>"; };
+		A100000000000000000000A4 /* ItemListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListView.swift; sourceTree = "<group>"; };
+		A100000000000000000000A5 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		A100000000000000000000A6 /* MarkdownPane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkdownPane.swift; sourceTree = "<group>"; };
+		A100000000000000000000A7 /* NoteEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteEditorView.swift; sourceTree = "<group>"; };
+		A100000000000000000000A8 /* TaskInspectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskInspectorView.swift; sourceTree = "<group>"; };
+		A100000000000000000000A9 /* QuickCaptureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickCaptureView.swift; sourceTree = "<group>"; };
+		A100000000000000000000AA /* SettingsViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViews.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +88,18 @@
 			isa = PBXGroup;
 			children = (
 				A10000000000000000000050 /* DodoApp.swift */,
-				A10000000000000000000054 /* ContentView.swift */,
+				A10000000000000000000054 /* MainSplitView.swift */,
+				A100000000000000000000A0 /* SidebarItem.swift */,
+				A100000000000000000000A1 /* Workspace.swift */,
+				A100000000000000000000A2 /* SidebarView.swift */,
+				A100000000000000000000A3 /* EmptyStateView.swift */,
+				A100000000000000000000A4 /* ItemListView.swift */,
+				A100000000000000000000A5 /* DetailView.swift */,
+				A100000000000000000000A6 /* MarkdownPane.swift */,
+				A100000000000000000000A7 /* NoteEditorView.swift */,
+				A100000000000000000000A8 /* TaskInspectorView.swift */,
+				A100000000000000000000A9 /* QuickCaptureView.swift */,
+				A100000000000000000000AA /* SettingsViews.swift */,
 				A10000000000000000000051 /* Assets.xcassets */,
 				A10000000000000000000052 /* Dodo.entitlements */,
 			);
@@ -188,7 +221,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				A10000000000000000000060 /* DodoApp.swift in Sources */,
-				A10000000000000000000061 /* ContentView.swift in Sources */,
+				A10000000000000000000061 /* MainSplitView.swift in Sources */,
+				A100000000000000000000B0 /* SidebarItem.swift in Sources */,
+				A100000000000000000000B1 /* Workspace.swift in Sources */,
+				A100000000000000000000B2 /* SidebarView.swift in Sources */,
+				A100000000000000000000B3 /* EmptyStateView.swift in Sources */,
+				A100000000000000000000B4 /* ItemListView.swift in Sources */,
+				A100000000000000000000B5 /* DetailView.swift in Sources */,
+				A100000000000000000000B6 /* MarkdownPane.swift in Sources */,
+				A100000000000000000000B7 /* NoteEditorView.swift in Sources */,
+				A100000000000000000000B8 /* TaskInspectorView.swift in Sources */,
+				A100000000000000000000B9 /* QuickCaptureView.swift in Sources */,
+				A100000000000000000000BA /* SettingsViews.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
