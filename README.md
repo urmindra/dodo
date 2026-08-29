@@ -17,7 +17,7 @@ Spec: [`docs/superpowers/specs/2026-08-28-dodo-v0-design.md`](docs/superpowers/s
 3. Select the **Dodo** scheme and **My Mac**.
 4. Press ⌘R to run.
 
-The first launch creates `~/Library/Application Support/Dodo/Dodo.store`.
+The first launch creates `~/Library/Application Support/Dodo/Dodo.json`.
 
 ## Tests
 
@@ -35,7 +35,7 @@ xcodebuild test -project Dodo.xcodeproj -scheme Dodo -destination 'platform=macO
 
 ## Layout
 
-- `Packages/DodoCore` — SwiftData models, stores, search, settings keys
+- `Packages/DodoCore` — records, stores, search, settings keys, JSON library snapshot
 - `Dodo` — SwiftUI windows, menu bar extra, Settings
 - `DodoTests` — app-host unit tests
 
