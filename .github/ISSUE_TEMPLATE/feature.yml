@@ -1,0 +1,33 @@
+name: Feature request
+description: Propose a change to Dodo
+title: "[Feature] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What is missing or painful today?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposal
+      description: What should Dodo do instead?
+    validations:
+      required: true
+  - type: dropdown
+    id: phase
+    attributes:
+      label: Phase
+      options:
+        - v0
+        - v1 folders / Spotlight
+        - v2 iCloud
+        - v3 meetings
+        - v4 local LLM
+        - v5 Claude
+        - unsure
+    validations:
+      required: true
